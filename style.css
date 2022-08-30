@@ -1,0 +1,157 @@
+body{
+    background-image:url("./imagenes/background.png");
+    margin: 0;
+    padding: 0px;
+    font-family: 'michroma';
+    src: url('./imagenes/michroma.ttf') format('truetype');
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: #9d9a75;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+  .botones {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cartelera {
+    border: 5px solid  beige;
+    padding: 30px;
+    color: #9d9a75;
+    border-radius: 20px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+  .cartelera:hover{
+    background-color: beige;
+    color: black;
+  }
+
+  .candy {
+    border: 5px solid  beige;
+    padding: 30px;
+    color: #9d9a75;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 25px;
+  }
+  
+  .candy:hover{
+    background-color: beige;
+    color: black;
+  }
+
+  .barra {
+    display: flex;
+    background: linear-gradient(to right, rgb(0, 0, 0),#9d9a75);
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .barra-logo{
+    display: flex;
+    align-items: center;
+  }
+
+  .barra-logo img{
+    width: 60px;
+    padding: 30px;
+    
+  }
+
+  .barra-logo a {
+    color: #9d9a75;
+    text-decoration: none;
+  }
+
+  .barra-eslogan{
+    padding: 100px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  .barra-logo a:hover{
+    transition:all .2s ease-in-out;
+    color: beige;
+  }
+
+  .caja-peliculas{
+    height: 600px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .caja{
+    margin: 0 auto;
+    border: 5px solid #9d9a75;
+    border-radius: 5px;
+    padding: 0px;
+    overflow:hidden;
+    margin-bottom: 100px;
+  }
+
+  .caja:hover{
+    transition:all .2s ease-in-out;
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+
+  .sala-caja{
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .sala-poster{
+    border: 5px solid #9d9a75;
+    border-radius: 1px;
+    padding: 0px;
+    justify-content: center;
+    padding: 1px;
+  }
+  
+  .sala-descripcion{
+    color: beige;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    word-spacing: normal;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .puntaje{
+    color: beige;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .puntaje img{
+    width: 200px;
+  }
+  

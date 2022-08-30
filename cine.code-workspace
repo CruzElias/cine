@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\tp1"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Fundamentos Web"
+	}
+}
